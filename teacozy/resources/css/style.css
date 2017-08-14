@@ -1,0 +1,149 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.8;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  width: 100%;
+  z-index:1;
+  background-color:black;
+}
+
+main {
+  margin-top: 70px;
+}
+
+.teamonth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teamonthtextblock
+{
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.teamonthimageblock
+{
+  width: 1000px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.teamonthblock {
+  width: 300px;
+  margin-right:33px;
+  text-align: center;
+}
+
+.teamonthblock h4 {
+  margin-top: 10px;
+}
+
+.teammonthimage {
+  width:inherit;
+}
+
+.locations
+{
+  display: flex;
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.locations h2
+{
+  margin-bottom: 15px;
+}
+
+.locationsdetail
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationitem {
+  background-color: black;
+  opacity: 1;
+  margin-right: 40px;
+  text-align: center;
+  width: 300px;
+}
+
+.foootercontact {
+  height:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footercontact h2, .footercontact h5 {
+  text-align: center;
+}
+
+.mission
+{
+  display: flex;
+  height: 700px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat:no-repeat;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.missionblack
+{
+  text-align: center;
+  background-color:black;
+  width: 100%;
+}
+
+.leftheaderflex, .rightheaderflex {
+  flex-grow: 1;
+}
+
+.leftheaderflex {
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  margin-left:10px;
+}
+
+.rightheaderflex {
+  text-align: right;
+  margin-right:20px;
+}
+
+.menu {
+  margin-left: 20px;
+}
+
+.menu a {
+  color: inherit;
+}
+
+.copyright {
+  margin-top: 50px;
+  margin-left: 20px;
+}
